@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:padding="10dp" >
+
+    <Button
+        android:id="@+id/btnDot"
+        style="@style/NumberButtonText"
+        android:layout_width="63dp"
+        android:layout_height="63dp"
+        android:layout_alignParentTop="true"
+        android:text="@string/ButtonTextDot" />
+
+    <EditText
+        android:id="@+id/txtDisplay"
+        android:layout_width="188dp"
+        android:layout_height="63dp"
+        android:layout_toRightOf="@id/btnDot"
+        android:focusable="false"
+        android:gravity="center"
+        android:textSize="28sp" />
+
+    <Button
+        android:id="@+id/btnOne"
+        style="@style/NumberButtonText"
+        android:layout_width="63dp"
+        android:layout_height="63dp"
+        android:layout_below="@id/txtDisplay"
+        android:text="@string/ButtonTextOne" />
+
+    <Button
+        android:id="@+id/btnTwo"
+        style="@style/NumberButtonText"
+        android:layout_width="63dp"
+        android:layout_height="63dp"
+        android:layout_below="@id/txtDisplay"
+        android:layout_toRightOf="@id/btnOne"
+        android:text="@string/ButtonTextTwo" />
+
+    <Button
+        android:id="@+id/btnThree"
+        style="@style/NumberButtonText"
+        android:layout_width="63dp"
+        android:layout_height="63dp"
+        android:layout_below="@id/txtDisplay"
+        android:layout_toRightOf="@id/btnTwo"
+        android:text="@string/ButtonTextThree" />
+
+    <Button
+        android:id="@+id/btnFour"
+        style="@style/NumberButtonText"
+        android:layout_width="63dp"
+        android:layout_height="63dp"
+        android:layout_below="@id/txtDisplay"
+        android:layout_toRightOf="@id/btnThree"
+        android:text="@string/ButtonTextFour" />
+
+    <Button
+        android:id="@+id/btnFive"
+        style="@style/NumberButtonText"
+        android:layout_width="63dp"
+        android:layout_height="63dp"
+        android:layout_below="@id/btnOne"
+        android:text="@string/ButtonTextFive" />
+
+    <Button
+        android:id="@+id/btnSix"
+        style="@style/NumberButtonText"
+        android:layout_width="63dp"
+        android:layout_height="63dp"
+        android:layout_below="@id/btnOne"
+        android:layout_toRightOf="@id/btnFive"
+        android:text="@string/ButtonTextSix" />
+
+    <Button
+        android:id="@+id/btnSeven"
+        style="@style/NumberButtonText"
+        android:layout_width="63dp"
+        android:layout_height="63dp"
+        android:layout_below="@id/btnOne"
+        android:layout_toRightOf="@id/btnSix"
+        android:text="@string/ButtonTextSeven" />
+
+    <Button
+        android:id="@+id/btnEight"
+        style="@style/NumberButtonText"
+        android:layout_width="63dp"
+        android:layout_height="63dp"
+        android:layout_below="@id/btnOne"
+        android:layout_toRightOf="@id/btnSeven"
+        android:text="@string/ButtonTextEight" />
+
+    <Button
+        android:id="@+id/btnNine"
+        style="@style/NumberButtonText"
+        android:layout_width="63dp"
+        android:layout_height="63dp"
+        android:layout_below="@id/btnFive"
+        android:text="@string/ButtonTextNine" />
+
+    <Button
+        android:id="@+id/btnZero"
+        style="@style/NumberButtonText"
+        android:layout_width="63dp"
+        android:layout_height="63dp"
+        android:layout_below="@id/btnFive"
+        android:layout_toRightOf="@id/btnNine"
+        android:text="@string/ButtonTextZero" />
+
+    <Button
+        android:id="@+id/btnChange"
+        style="@style/NumberButtonText"
+        android:layout_width="63dp"
+        android:layout_height="63dp"
+        android:layout_below="@id/btnFive"
+        android:layout_toRightOf="@id/btnZero"
+        android:text="@string/ButtonTextChange" />
+
+    <Button
+        android:id="@+id/btnOk"
+        style="@style/NumberButtonText"
+        android:layout_width="63dp"
+        android:layout_height="63dp"
+        android:layout_below="@id/btnFive"
+        android:layout_toRightOf="@id/btnChange"
+        android:text="@string/ButtonTextOk" />
+
+</RelativeLayout>

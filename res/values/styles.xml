@@ -1,0 +1,43 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android"> 
+    
+	<style name="StyleListView">
+	    <item name="android:layout_width">fill_parent</item>
+	     <item name="android:layout_height">fill_parent</item>
+	     <item name="android:divider">@drawable/divider</item>
+		<item name="android:cacheColorHint">@color/transparent</item>
+	</style>
+	
+	<style name="StyleListViewItem">
+	    <item name="android:textSize">18sp</item>
+	    <item name="android:textColor">#ff000000</item>
+	    <item name="android:ellipsize">marquee</item>
+	    <item name="android:singleLine">true</item>
+	    <item name="android:marqueeRepeatLimit">marquee_forever</item>
+	</style>
+	<style name="NumberButtonText">
+		<item name="android:textSize">15sp</item>
+		<item name="android:textStyle">bold</item>
+		<item name="android:textColor">#ff000000</item>
+		<item name="android:background">@drawable/number_selector</item>
+	</style>
+	
+	
+	
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+    
+</resources>

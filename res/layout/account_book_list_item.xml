@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/listview_selector"
+    android:gravity="center_vertical"
+    android:minHeight="50dp"
+    android:orientation="horizontal" >
+
+    <ImageView
+        android:id="@+id/ivAccountBookIcon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="5dp" />
+
+    <TextView
+        android:id="@+id/tvAccountBookName"
+        style="@style/StyleListViewItem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:layout_marginLeft="5dp"
+        android:textSize="18sp"
+        android:layout_toRightOf="@id/ivAccountBookIcon" />
+
+    <TextView
+        android:id="@+id/tvTotal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:paddingRight="5dp"
+        android:textColor="#ff000000" />
+
+    <TextView
+        android:id="@+id/tvMoney"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvAccountBookName"
+        android:layout_toRightOf="@id/ivAccountBookIcon"
+        android:textColor="#ff666666" />
+
+</RelativeLayout>
